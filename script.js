@@ -24,7 +24,7 @@ var newPassword=[]
 var promptPassword = window.prompt("How many characters would you like the password to be?");
 if (promptPassword < 9 || promptPassword > 128) {
   alert("Password length must be between 8 and 128 characters")
-
+return
 }
 
 var useLowercase = confirm("Do you want to use lower case characers")
